@@ -38,4 +38,4 @@ jobs:
       - run: pip install mkdocs-material 
       - name: Deploy to gitHub Pages
       
-      - run: mkdocs gh-deploy --clean --force 
+      - run: mkdocs gh-deploy --config-file resume/mkdocs.yml --clean --force 
