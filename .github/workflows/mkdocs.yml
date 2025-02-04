@@ -4,8 +4,8 @@ on:
     branches:
       - main
 
-# permissions:
-#   contents: write
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      # - name: Configure Git Credentials
-      #   run: |
-      #     git config user.name github-actions[bot]
-      #     git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - uses: actions/setup-python@v4
         with:
@@ -37,5 +37,8 @@ jobs:
       #       mkdocs-material-
       # - run: pip install mkdocs-material 
       - name: Deploy to gitHub Pages
+        env:
+            GH_PAT: ${{ secrets.GH_PAT }}  # Use the stored secret
         run: |
-          mkdocs gh-deploy --config-file resume/mkdocs.yml --clean --force 
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+            mkdocs gh-deploy --config-file resume/mkdocs.yml --clean --force
