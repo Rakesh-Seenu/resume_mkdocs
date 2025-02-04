@@ -24,7 +24,7 @@ jobs:
           python-version: 3.8
 
       - name: Install the requirements
-        shell: bash -l {0}
+        # shell: bash -l {0}
         run: |
           pip3 install mkdocs mkdocs-material mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin
       # - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
@@ -36,4 +36,6 @@ jobs:
       #     restore-keys: |
       #       mkdocs-material-
       - run: pip install mkdocs-material 
+      - name: Deploy to gitHub Pages
+      
       - run: mkdocs gh-deploy --clean --force 
