@@ -1,11 +1,12 @@
 name: mkdocs
+
 on:
   push:
     branches:
-      - main
+      - main  # Trigger on pushes to the main branch (or your preferred branch)
 
 permissions:
-  contents: write
+  contents: write  # Required for pushing to the gh-pages branch
 
 jobs:
   deploy:
@@ -13,32 +14,25 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      
-      # - name: Configure Git Credentials
-      #   run: |
-      #     git config user.name github-actions[bot]
-      #     git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.12
+          python-version: 3.12  # Or your preferred Python version
 
-      - name: Install the requirements
-        # shell: bash -l {0}
+      - name: Install dependencies
         run: |
-          pip3 install mkdocs mkdocs-material mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin
-      # - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+          pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin
 
-      # - uses: actions/cache@v3
-      #   with:
-      #     key: mkdocs-material-${{ env.cache_id }}
-      #     path: .cache
-      #     restore-keys: |
-      #       mkdocs-material-
-      # - run: pip install mkdocs-material 
-      - name: Deploy to gitHub Pages
+      - name: Build and Deploy MkDocs
         env:
-            GH_PAT: ${{ secrets.GH_PAT }}  # Use the stored secret
+          GH_PAT: ${{ secrets.GH_PAT }}  # Your GitHub Personal Access Token
         run: |
-            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-            mkdocs gh-deploy --config-file mkdocs.yml --clean --force
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          mkdocs gh-deploy --config-file mkdocs.yml --clean --force
+
+      # Optional: Add a step to invalidate Cloudflare cache if you use it
+      # - name: Purge Cloudflare Cache (if applicable)
+      #   uses: jakejarvis/cloudflare-purge@v1
+      #   with:
+      #     cloudflare_token: ${{ secrets.CLOUDFLARE_TOKEN }}
+      #     cloudflare_zone_id: ${{ secrets.CLOUDFLARE_ZONE_ID }}
