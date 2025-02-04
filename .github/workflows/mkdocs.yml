@@ -41,4 +41,4 @@ jobs:
             GH_PAT: ${{ secrets.GH_PAT }}  # Use the stored secret
         run: |
             git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-            mkdocs gh-deploy --config-file resume/mkdocs.yml --clean --force
+            mkdocs gh-deploy --config-file mkdocs.yml --clean --force
