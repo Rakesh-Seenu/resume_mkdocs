@@ -1,5 +1,5 @@
 site_name: Rakesh Portfolio
-repo_url: https://github.com/Rakesh-Seenu
+repo_url: https://github.com/Rakesh-Seenu/resume_mkdocs
 
 nav:
   - Home: index.md
