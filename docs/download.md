@@ -1,5 +1,15 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Downloads
 
-## Resume
+## Résumé / CV
 
-[Click here](https://drive.google.com/file/d/1Lw3MiuDMVgt_WvZS23FxfjPxOsl0icy-/view?usp=drive_link)
+Download the latest copy of my CV:
+
+[:material-file-download: Download CV (PDF)](./Rakesh_Hadne_Sreenath_CV.pdf){ .md-button .md-button--primary }
+
+_Last updated: July 2026_

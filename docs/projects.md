@@ -6,105 +6,135 @@ hide:
 
 # PROJECTS UNDERTAKEN
 
+## Featured — AI & Agentic Systems
+
+<div class="grid cards" markdown>
+
+-   :material-account-school-outline: **Agentic Student Assistant**
+
+    ---
+
+    Modular multi-agent academic companion using LangGraph & Pydantic AI, integrating external market data via structured APIs with full audit trails.
+
+    `Python` `LangGraph` `Pydantic AI` `Vector DBs` `OpenAI API`
+
+-   :material-microphone-outline: **Voice-Enabled Audio RAG**
+
+    ---
+
+    Production-ready voice interaction system using Whisper STT and Qdrant for natural-language document interrogation, with offline latency & accuracy benchmarks.
+
+    `Python` `Whisper` `Qdrant` `RAG` `Docker`
+
+-   :material-cloud-check-outline: **Production Cloud LLMOps Pipeline**
+
+    ---
+
+    End-to-end containerized AI pipelines on GCP using Docker & Terraform, with automated dashboards for real-time health, failures, and data drift.
+
+    `Terraform` `Docker` `GCP` `BigQuery`
+
+</div>
+
 ---
 
-???+ info "German Biography Generator"
+## Earlier & Academic Projects
+
+??? info "Chatbot using RAG"
 
     ### Project Summary
 
-    Developed a summarization tool using a large language model (LLM) to generate concise German biographies by 
-    processing text in chunks, refining coherence, and removing redundancies. The tool efficiently reads and summarizes Word, 
+    Retrieval-Augmented Generation (RAG) model-based chatbot application. The chatbot uses LLAMA3 to help
+    students answer queries by orchestrating a flow through various modules and displaying the results.
+
+    ### Tech-stack Used
+
+    LangChain, Python
+
+??? info "German Biography Generator"
+
+    ### Project Summary
+
+    Developed a summarization tool using a large language model (LLM) to generate concise German biographies by
+    processing text in chunks, refining coherence, and removing redundancies. The tool efficiently reads and summarizes Word,
     CSV, and PDF documents, with robust exception handling to ensure clear, focused outputs.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-     NumPy, Pandas, Flask, API, NLP 
+    NumPy, Pandas, Flask, API, NLP
 
 ??? info "Hush Hush Recruiter Candidate Selection"
 
     ### Project Summary
 
-    Led project team at Hush Hush Recruiter in defining goals, extracting GitHub data via APIs, applying K-means 
-    clustering for candidate filtering, integrating SQLite for profile storage, and implementing automated email functionality for 
-    streamlined communication with chosen candidates 
+    Led project team at Hush Hush Recruiter in defining goals, extracting GitHub data via APIs, applying K-means
+    clustering for candidate filtering, integrating SQLite for profile storage, and implementing automated email functionality for
+    streamlined communication with chosen candidates.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-     Scikit-learn, NumPy, Pandas, SQLite, Vercel 
+    Scikit-learn, NumPy, Pandas, SQLite, Vercel
 
 ??? info "Data-Pipeline-Project"
 
     ### Project Summary
 
-    The project involves constructing a data pipeline with Python scripts and Docker, encompassing data fetching, 
-    processing, and storage in Google Big Query, along with visualization in Tableau, leveraging Docker for portability, Google 
+    The project involves constructing a data pipeline with Python scripts and Docker, encompassing data fetching,
+    processing, and storage in Google Big Query, along with visualization in Tableau, leveraging Docker for portability, Google
     Cloud SDK for integration, and Python for scripting, with detailed instructions provided for setup and usage.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-     Docker, MySQL, Google Big Query, Google Cloud SDK, Tableau
+    Docker, MySQL, Google Big Query, Google Cloud SDK, Tableau
 
 ??? info "Integrated Data Pipeline: Hadoop, Scraping, DB, Testing"
 
     ### Project Summary
 
-    Developed a data scraping solution for an anime-related website to efficiently collect and process data for analysis 
-    and reporting purposes. 
+    Developed a data scraping solution for an anime-related website to efficiently collect and process data for analysis
+    and reporting purposes.
+
     - Roles and Responsibilities:
-      Led the implementation of a comprehensive data scraping solution, orchestrated the setup of a scalable Hadoop 
-      ecosystem, managed infrastructure using Docker and VirtualBox, and oversaw data transfer from HDFS to SQLite 
-      for analysis. 
+      Led the implementation of a comprehensive data scraping solution, orchestrated the setup of a scalable Hadoop
+      ecosystem, managed infrastructure using Docker and VirtualBox, and oversaw data transfer from HDFS to SQLite
+      for analysis.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-     Dockers, Hadoop, Py-spark, Scrapy, MySQL and GCP
-
-??? info "Chatbot using RAG "
-
-    ### Project Summary
-
-    Retrieval-Augmented Generation (RAG) model-based chatbot application. The chatbot uses LLAMA3 to help 
-    students answer queries by orchestrating a flow through various modules and displaying the results.
-
-    ### Techstacks Used
-
-     langchain, python
+    Docker, Hadoop, Py-spark, Scrapy, MySQL and GCP
 
 ??? info "Los Angeles Crime Data Exploration and Visualization"
 
     ### Project Summary
 
-    Cleaned and visualized a complex crime dataset using Tableau Prep and Tableau Desktop facilitating better decision
+    Cleaned and visualized a complex crime dataset using Tableau Prep and Tableau Desktop, facilitating better decision
     making through reliable insights.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-     Tableau Prep, Trifacta Data Prep, GCP Big Query, Data Profiling, Data Cleaning and 
-     Uncleaning processes.
-     
+    Tableau Prep, Trifacta Data Prep, GCP Big Query, Data Profiling, Data Cleaning
+
 ??? info "Prime Video Data Analysis Project using Power BI"
 
     ### Project Summary
 
     Developed an interactive Power BI dashboard for analyzing Prime Video content, enabling data-driven decision
-    making for production strategies by providing clear insights into library composition and trends, thereby enhancing content 
+    making for production strategies by providing clear insights into library composition and trends, thereby enhancing content
     selection and audience engagement.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-    Power BI, Data Profiling, Data Cleaning and Uncleaning processes.
+    Power BI, Data Profiling, Data Cleaning
 
-??? info "Interactive Dashboard with SAS Visual Analytics "
+??? info "Interactive Dashboard with SAS Visual Analytics"
 
     ### Project Summary
 
-    To create an interactive dashboard for visualizing and analyzing a dataset containing information about German 
-    companiest.
+    Created an interactive dashboard for visualizing and analyzing a dataset containing information about German
+    companies.
 
-    ### Techstacks Used
+    ### Tech-stack Used
 
-    SAS Visual Analytics, Data Cleaning and Analysis Technique.
-   
+    SAS Visual Analytics, Data Cleaning and Analysis Techniques
+
 ---
-
-<!-- [ Back to Home](./index.md){ .md-button } -->

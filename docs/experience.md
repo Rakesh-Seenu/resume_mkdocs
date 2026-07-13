@@ -7,83 +7,74 @@ hide:
 # EXPERIENCE
 
 ---
-AI Engineer — Supply Chain Intelligence Platform
-Summary
 
-Design and build the LLM-powered backend that automatically maps and scores global supply-chain relationships from unstructured evidence. Own the end-to-end AI pipeline — from external data ingestion, through LLM orchestration and prompt engineering, to multi-stage evidence scoring — across a distributed microservice architecture (Java/Spring + Python).
+???+ tip "AI Engineer — Supply Chain Intelligence Platform"
 
-Key Responsibilities
+    ### **Firmway**
 
-LLM orchestration & prompt engineering — Build and maintain a centralized LLM gateway and prompt-management layer (Langfuse-versioned prompts), including structured-output enforcement, prompt caching for cost/latency reduction, and answer-validation/confirmator logic consolidated into the gateway.
-Evidence ingestion pipelines — Develop connectors that ingest evidence from external sources (e.g. SEC EDGAR filings, news, web) into a shared evidence data model, with a cached fetch layer (data-provider gateway) to reduce redundant API calls.
-Multi-stage scoring engine — Implement multi-pass evidence-scoring pipelines that generate relationship summaries, industry/corporate-structure analysis, and derive confidence labels from evidence scores; add verification passes (e.g. news cross-checks) to reduce false positives.
-Data modeling — Evolve a shared domain model across services (evidence entities, scoring tiers, relationship structures) and manage schema/version rollout across dependent services.
-Observability & reliability — Instrument pipelines with OpenTelemetry, standardize structured logging (Loki), and remove redundant caching/logging layers to simplify the system.
-Collaboration — Work across multiple repositories/services via merge requests and code review, coordinating shared-model changes and staged service cutovers.
-Tech Stack
+    _Jun 2026 – Present · Frankfurt, Germany_
 
-Java / Spring Boot, Python, LLM APIs, Langfuse (prompt management), structured outputs, OpenTelemetry / Loki, microservice architecture, Git/MR-based workflow.
+    Building the LLM-powered backend that maps and scores global supply-chain relationships from unstructured evidence, across a distributed Java/Spring + Python microservice stack.
 
-???+ tip "Intern"
+    - Built a centralized **LLM gateway** that every service routes through, with Langfuse-versioned prompts, enforced structured outputs, and prompt caching, replacing scattered, duplicated model calls with one consistent, cost-aware entry point.
+    - Wrote ingestion connectors for **SEC EDGAR filings, news, and web sources**, normalizing everything into a shared evidence model, with a caching layer that avoids repeated external API calls.
+    - Built a multi-pass **scoring engine** that turns raw evidence into relationship summaries, corporate-structure analysis, and confidence labels, and added news cross-checks to filter out false positives.
+    - Owned the shared domain model across services (evidence, scoring tiers, relationships), rolling out schema changes cleanly without breaking anything downstream.
+    - Added end-to-end monitoring with **OpenTelemetry** and standardized logging through **Loki**, making failures far easier to trace and letting me strip out redundant caching and logging layers.
+    - Delivered work across multiple repositories through merge requests and code review, coordinating shared-model changes and staged service cutovers.
 
-    ### **BioMed X Institute, Germany**
+    **Tech stack:** Java / Spring Boot · Python · LLM APIs · Langfuse · OpenTelemetry · Loki · microservices
 
-    _Nov 2024 – Present_
+<div style="border-left: 2px solid #ccc;height: 10px;margin: 0 20px;"></div>
 
-    Developing Talk2BioModels, an advanced AI agent designed to interact seamlessly with systems biology models via natural language processing.
+???+ tip "AI Engineer — Intern"
 
-    Leveraging LangChain and Large Language Models (LLMs) to build intelligent agents that simplify querying, simulation, and data exploration in systems biology.
+    ### **e.Ray Europa GmbH**
 
-    Engineered agent capabilities for forward simulation and dynamic parameter tuning of mathematical models, including integration with open-source systems like BioModels.
+    _Mar 2026 – May 2026 · Darmstadt, Germany_
 
-    Incorporating cutting-edge NLP techniques, prompt engineering, and knowledge graph integrations to enable AI agents to provide actionable insights from structured and unstructured biological datasets.
+    - Architected an **Agentic AI system** that automated **80% of unstructured data processing**, reducing manual compliance overhead by ~12 hours per week.
+    - Optimized domain-specific LLMs through **fine-tuning**, achieving a **15% increase in extraction accuracy** for complex regulatory schemas.
+    - Fine-tuned LLMs on **GDPR-compliant** data-ingestion pipelines for environmental workflows, ensuring **100% data-residency adherence**.
+    - Developed a **RAG-based analytics layer** that accelerated historical trend analysis by **40%** using PostgreSQL-backed datasets.
 
-    Building robust deployment pipelines and ensuring security, scalability, and maintainability for AI agents in production environments.
+<div style="border-left: 2px solid #ccc;height: 10px;margin: 0 20px;"></div>
+
+???+ tip "GenAI Engineer — Master's Thesis"
+
+    ### **BioMed X Institute**
+
+    _Apr 2025 – Sep 2025 · Heidelberg, Germany_
+
+    - Led design and implementation of **agentic workflows** for systems biology; conducted requirements analysis and feasibility studies for complex scientific pipelines.
+    - Built custom tools using **Pydantic AI** and **LangGraph**, enabling seamless LLM interaction with external biological simulation frameworks.
+    - Reduced **CI/CD cache access time by 5+ minutes per run** and cut environment setup time to under 30 seconds via a Conda-based workflow migration.
+    - Established **LLMOps** environments to monitor AI performance and hallucination rates, ensuring production-grade reliability.
+    - Implemented full unit-test coverage across Windows, Ubuntu, and macOS for deterministic, production-ready releases.
+
+<div style="border-left: 2px solid #ccc;height: 10px;margin: 0 20px;"></div>
+
+???+ tip "GenAI Engineer — Intern"
+
+    ### **BioMed X Institute**
+
+    _Nov 2024 – Mar 2025 · Heidelberg, Germany_
+
+    - Developed **Talk2BioModels** — an agentic AI system enabling natural-language interaction with large-scale biomedical repositories using dynamic tool calling and structured LLM APIs.
+    - Built robust **RAG pipelines** featuring episodic memory and semantic caching, improving retrieval precision and reducing operational costs.
+    - Evaluated and documented multiple LLM architectures for domain-specific tasks; integrated prompt engineering, NLP pipelines, and knowledge graphs.
 
 <div style="border-left: 2px solid #ccc;height: 10px;margin: 0 20px;"></div>
 
 ???+ tip "Software Engineer"
 
-    ### **Tech Mahindra, Bengaluru, India**
+    ### **Tech Mahindra**
 
-    _Mar 2022 – June 2023_ 
+    _Aug 2021 – Jun 2023 · Bengaluru, India_
 
-    Automated 7+ manual processes using Perl and Python, resulting in an 18% increase in workflow efficiency.
-
-    Uploaded and optimized queries into the database, contributing to improved data retrieval times. 
-
-    Maintained dashboards for 2 projects, facilitating real-time project tracking and reporting.
-
-    Coordinated with project managers to meet development timelines
-
-    Introduced automation tools that reduced manual effort by 40%, enhancing overall development productivity.
-
-    Conducted regression and performance tests for 3 system updates, ensuring 99% system stability.
-
-<div style="border-left: 2px solid #ccc;height: 10px;margin: 0 20px;"></div>
-
-???+ tip "Associate Software Engineer"
-
-    ### **Tech Mahindra, Bengaluru, India**
-
-    _Aug 2021 – Feb 2022_
-
-    Collaborated with the development team to identify and resolve 10+ software bugs, improving overall system 
-    performance.
-
-    Executed 30++ test scripts, logging and resolving defects with a 95% success rate.
-
-    Successfully worked with a diverse group of coworkers to achieve project goals, resulting in a 15% increase
-    in team efficiency. 
-
-<div style="border-left: 2px solid #ccc;height: 10px;margin: 0 20px;"></div>
-
-???+ tip "Tech Fortune Learning · Internship"
-
-    _July 2019 – Aug 2019_
-
-    Worked on ML project for the Credit card fraud detection
+    - Automated **7+ manual business workflows** using Python and Perl, achieving an 18% improvement in operational efficiency and a 40% reduction in manual effort.
+    - Developed and integrated secure **REST/GraphQL API** connectors; optimized mission-critical PostgreSQL schemas, improving query performance by 18%.
+    - Maintained **99%+ system stability** through structured regression and performance testing; resolved 30+ software defects via collaborative code review.
+    - Awarded **'Pat on Back' (2022)** and **'Best Team Award' (2022)** for consistent delivery and exceptional team collaboration.
 
 ---
-
-<!-- [ Back to Home](./index.md){ .md-button } -->

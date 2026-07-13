@@ -1,4 +1,6 @@
 site_name: Rakesh Portfolio
+site_description: Rakesh Hadne Sreenath — AI Engineer | LLM & Agentic Systems | MLOps
+site_author: Rakesh Hadne Sreenath
 repo_url: https://github.com/Rakesh-Seenu/resume_mkdocs
 
 nav:
@@ -6,8 +8,9 @@ nav:
   - Experience: experience.md
   - Skills & Tech-stack: skills.md
   - Projects Undertaken: projects.md
+  - Publications: publications.md
   - Education: education.md
-  - Achivements & Certifications: recognition.md
+  - Achievements & Certifications: recognition.md
   - Interests & Hobbies: interests.md
   - About Me: about.md
   - Downloads: download.md
@@ -29,13 +32,12 @@ theme:
   language: en
   font:
     text: Google Sans
-  name: material
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: blue
+      primary: indigo
+      accent: deep purple
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
@@ -43,16 +45,28 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: indigo
+      accent: deep purple
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-  scheme: default
-  primary: cyan
-  accent: cyan
 
-copyright: Copyright &copy; 2024 &nbsp;RAKESH HADNE SREENATH
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rakesh-hs
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/Rakesh-Seenu
+      name: GitHub
+    - icon: fontawesome/solid/envelope
+      link: mailto:hsrakesh71@gmail.com
+      name: Email
+
+copyright: Copyright &copy; 2026 &nbsp;RAKESH HADNE SREENATH
 
 markdown_extensions:
   - tables
@@ -76,14 +90,12 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list
-
   - pymdownx.tasklist:
       custom_checkbox: true
+
 plugins:
   - tags
-#   - social:
-#       cards_color:
-#         fill: "#0FF1CE"
-#         text: "#FFFFFF"

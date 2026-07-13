@@ -6,20 +6,50 @@ hide:
 
 # SKILLS & TECH-STACK
 
----
+A snapshot of the tools and technologies I use to design, build, and ship AI systems.
 
-| Groups                         | Tools & Tech-stack                                                                                                                      |
-| -------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **`Front-end technologies`**   | **MkDocs, Bootstrap 5, HTML5, CSS3**                                                                                                    |
-| **`Data Analytics`**           | **Machine Learning (ML), NLP, Neural Networks, Generative AI, Data Mining, PredictiveAnalytics, Regression, Classification, Clustering**|
-| **`Programming Languages`**    | **Python, SQL, R**                                                                                                                      |
-| **`Cloud Technologies`**       | **Google Cloud Platform (GCP), Microsoft Azure, AWS**                                                                                   |
-| **`Visualization & Reporting`**| **Power BI, Tableau, SAS Visual Analytics, Excel**                                                                                      |
-| **`Data Engineering`**         | **ETL, Data Pipelines, Hadoop, Spark, Data Scraping, HDFS, BigQuery, MySQL, SQLite**                                                    |
-| **`Libraries & Frameworks:`**  | **Pandas, Scikit-learn, TensorFlow, PyTorch, Scrapy, NLTK, Spacy**                                                                      |
-| **`Tools & Technologies:`**    | **Git, Docker, Google Cloud SDK, API Integration, MS Office (Excel, Word, PowerPoint)**                                                 |
-| **`Soft Skills:`**             | **Leadership, Team Collaboration, Communication, Multi-tasking, Agile Methodology**                                                     |    
+<div class="grid cards" markdown>
 
----
+-   :material-robot-outline: **LLM & Agents**
 
-<!-- [Back to Home](./index.md){ .md-button } -->
+    ---
+
+    LangGraph · Pydantic AI · LangChain · LangSmith · Multi-Agent Orchestration · Tool / Function Calling · Prompt Engineering · RAG · MCP Servers · Cognitive Architectures
+
+-   :material-brain: **ML & NLP**
+
+    ---
+
+    PyTorch · TensorFlow · Scikit-learn · Hugging Face Transformers · Fine-tuning (LoRA) · RLHF · Semantic Search · NLP · LLM Evaluation
+
+-   :material-cloud-cog-outline: **Cloud & MLOps**
+
+    ---
+
+    GCP (Vertex AI · BigQuery · Cloud Run) · AWS (SageMaker · Lambda · S3) · Azure · Docker · Kubernetes · CI/CD (GitHub Actions · GitLab) · Terraform · FastAPI
+
+-   :material-database-outline: **Data Systems**
+
+    ---
+
+    PostgreSQL · Neo4j (Knowledge Graphs) · Qdrant · Pinecone · Milvus · BigQuery · ETL / ELT Pipelines · REST / GraphQL APIs
+
+-   :material-code-braces: **Programming Languages**
+
+    ---
+
+    Python (Expert) · R · SQL · Bash
+
+-   :material-chart-box-outline: **Visualization & Reporting**
+
+    ---
+
+    Power BI · Tableau · SAS Visual Analytics · Excel
+
+-   :material-account-group-outline: **Soft Skills**
+
+    ---
+
+    Leadership · Team Collaboration · Communication · Multi-tasking · Agile Methodology
+
+</div>

@@ -9,37 +9,28 @@ hide:
 ---
 
 [**SRH Hochschule Heidelberg**](https://www.srh-university.de/de/)  
-_M.Sc. Applied Data Science and Analytics_
+_M.Sc. Applied Data Science & Analytics_
 <br>
-Data Analytics, Data Mining, Big Data, SQL, Tableau, Excel, Python and R programming, NLP
+Focus: NLP, Agentic AI, Big Data Engineering, Statistical Modeling, Python / R
 <br>
-_2023 - 2025_
-<br>
-_**CGPA**: 2.1_
+_Oct 2023 – Sep 2025 · Germany_
 
 ---
 
-[**PURDUE University**](https://www.purdue.edu/)
+[**Purdue University**](https://www.purdue.edu/)  
+_Post Graduate Program in Data Science_
 <br>
-_POST GRADUATE PROGRAM IN DATA SCIENCE_
+Focus: Machine Learning, Predictive Analytics, Power BI, Python / R
 <br>
-Power Query, ML, Power BI, Microsoft Excel, Python and R programming
-<br>
-_2022 - 2023_
-<br>
+_Aug 2022 – Mar 2023 · USA (Online)_
 
 ---
 
-[**UBDT college of Engineering**](https://www.ubdtce.org/)
+[**UBDT College of Engineering**](https://www.ubdtce.org/)  
+_B.E. Electronics & Communications Engineering_
 <br>
-_Bachelor of Electronics & Communications Engineering_
+Focus: Analog & Digital Electronics, Python, Machine Learning, Java, SQL
 <br>
-Matplotlib, Python, ML, Java, SQL, Analog Electronics, Digital Electronics
-<br>
-_2016 - 2020_
-<br>
-_**CGPA**: 7.02_
+_Aug 2016 – Jun 2020 · India_
 
 ---
-
-<!-- [ Back to Home](./index.md){ .md-button } -->
