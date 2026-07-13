@@ -7,6 +7,22 @@ hide:
 # EXPERIENCE
 
 ---
+AI Engineer — Supply Chain Intelligence Platform
+Summary
+
+Design and build the LLM-powered backend that automatically maps and scores global supply-chain relationships from unstructured evidence. Own the end-to-end AI pipeline — from external data ingestion, through LLM orchestration and prompt engineering, to multi-stage evidence scoring — across a distributed microservice architecture (Java/Spring + Python).
+
+Key Responsibilities
+
+LLM orchestration & prompt engineering — Build and maintain a centralized LLM gateway and prompt-management layer (Langfuse-versioned prompts), including structured-output enforcement, prompt caching for cost/latency reduction, and answer-validation/confirmator logic consolidated into the gateway.
+Evidence ingestion pipelines — Develop connectors that ingest evidence from external sources (e.g. SEC EDGAR filings, news, web) into a shared evidence data model, with a cached fetch layer (data-provider gateway) to reduce redundant API calls.
+Multi-stage scoring engine — Implement multi-pass evidence-scoring pipelines that generate relationship summaries, industry/corporate-structure analysis, and derive confidence labels from evidence scores; add verification passes (e.g. news cross-checks) to reduce false positives.
+Data modeling — Evolve a shared domain model across services (evidence entities, scoring tiers, relationship structures) and manage schema/version rollout across dependent services.
+Observability & reliability — Instrument pipelines with OpenTelemetry, standardize structured logging (Loki), and remove redundant caching/logging layers to simplify the system.
+Collaboration — Work across multiple repositories/services via merge requests and code review, coordinating shared-model changes and staged service cutovers.
+Tech Stack
+
+Java / Spring Boot, Python, LLM APIs, Langfuse (prompt management), structured outputs, OpenTelemetry / Loki, microservice architecture, Git/MR-based workflow.
 
 ???+ tip "Intern"
 
